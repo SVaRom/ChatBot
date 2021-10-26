@@ -4,7 +4,7 @@ import pyperclip
 import random
 
 sleep(2)
-
+#If u use light mode, just delete the '_dark' from the references
 
 position1=pt.locateOnScreen("BOT/smiley_paperclip_dark.png",confidence=.6)
 x=position1[0]
